@@ -111,7 +111,7 @@ order by Total_sales desc;
 --10.  Using a subquery or CTE, show the categories whose total sales are greater than the average total
 --sales across all categories
 
---Gbena el total sales bta3et kol category el 2wl
+--Got total sales of each category first
 select
     category_name_1,
     sum(grand_total_dedup) as Total_sales
